@@ -10,11 +10,15 @@
         body {
 
             margin: 0px 00px 00px 0;
-            background-image: url(img/fundo.png);
+            overflow-x: hidden;
+            overflow-y: hidden;
+            /* background-image: url(img/puc.png);
             background-repeat: no-repeat;
             background-size: cover;
             overflow-x: hidden;
-            overflow-y: hidden;
+            overflow-y: hidden; */
+            background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
         }
 
         .logo {
@@ -78,9 +82,9 @@
 
 <body>
     <div class="container">
-        <!--<div class="box">
-            <img src="./img/logo.png" alt="logo" class="logo">
-        </div>-->
+        <div class="box">
+            <img src="./img/puc.png" alt="logo" class="logo">
+        </div>
     </div>
     <script>
         localStorage.setItem('lyceum', '123');
